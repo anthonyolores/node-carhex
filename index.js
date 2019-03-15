@@ -29,9 +29,7 @@ app.use(function(req, res, next) {
 	next();
 });
 
-app.get('/', function (req, res) {
-	res.send('hello world');
-});
+
 
 app.get('/getvehicles', function(req, res) {
 	request(options, function(error, response, body){
