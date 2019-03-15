@@ -30,7 +30,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', function (req, res) {
-	res.send(JSON.stringify({ Hello: ‘World’}));
+	res.send('hello world');
 });
 
 app.get('/getvehicles', function(req, res) {
